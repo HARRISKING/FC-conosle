@@ -1,0 +1,31 @@
+{
+  "name": "fconsole",
+  "version": "1.0.0",
+  "description": "It can delete all \"console.log\" with one command",
+  "main": "index.js",
+
+  "bin": {
+    "init": "bin/init.js",
+    "FConsole": "bin/FConsole.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HARRISKING/FConsole.git"
+  },
+  "keywords": [
+    "console",
+    "console.log"
+  ],
+  "author": "HARRISKING",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HARRISKING/FConsole/issues"
+  },
+  "homepage": "https://github.com/HARRISKING/FConsole#readme",
+  "devDependencies": {
+    "commander": "^6.1.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "path": "^0.12.7"
+  }
+}
